@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #681459;
+}
+
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.tagname {
+    padding: 0 20px 0 20px;
+}
+
+.aboutme {
+    padding: 0 20px 0 20px;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+a:hover {
+    border-radius: 10px;
+    background-color: grey;
+}
+
+
+.mainBlock {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.text {
+    color: white;
+    margin-left: 50px;
+}
+
+.pic {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px
+}
+
+.cards {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 200px; */
+}
+
+.imgCard {
+    width: 100%;
+    height: 100%;
+}
+
+
+.card {
+    width: 200px;
+    height: 310px;
+    background-color: white;
+    /* overflow: hidden; Скрыть содержимое, выходящее за пределы блока */
+    position: relative;
+}
+
+
+
+.textBlockInCard {
+    position: absolute;
+    left: 4%;
+    top: 50%; 
+    background-color: rgba(0, 0, 0, 0.6);
+color: white;
+padding: 10px 70px; 
+border-radius: 5px;
+} 
+
+
+
+
+
+
